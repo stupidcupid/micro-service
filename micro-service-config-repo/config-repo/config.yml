@@ -1,3 +1,2 @@
-from: git-default-1.0
-spring:
-  profile: dev
+from:
+  name: git-default-1.0

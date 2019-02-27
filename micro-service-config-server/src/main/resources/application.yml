@@ -6,11 +6,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/stupidcupid/micro-service/
-          search-paths: tree/master/micro-service-config-server/src/main/resources/
-          username: 976487975@qq.com
+          uri: https://github.com/stupidcupid/micro-service
+          search-paths: tree/master/micro-service-config-repo/config-repo/**
+          username: ##########
           password: ##########
           lable: master
+      profile: dev
 
 server:
   port: 7001
