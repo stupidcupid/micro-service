@@ -2,16 +2,27 @@ spring:
   application:
     name: config-server
   cloud:
-    profiles: dev
     config:
       server:
         git:
           uri: https://github.com/stupidcupid/micro-service
-          search-paths: tree/master/micro-service-config-repo/config-repo/**
-          username: ##########
-          password: ##########
-          lable: master
-      profile: dev
-
+          search-paths: tree/master/micro-service-config-repo/config-repo
+          username: ############
+          password: ############
+  profiles:
+    active: dev
 server:
+
+
+
+
+
+
+
+
+
+
+
+
+
   port: 7001
