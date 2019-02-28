@@ -6,23 +6,10 @@ spring:
       server:
         git:
           uri: https://github.com/stupidcupid/micro-service
-          search-paths: tree/master/micro-service-config-repo/config-repo
+          search-paths: micro-service-config-repo
           username: ############
           password: ############
   profiles:
     active: dev
 server:
-
-
-
-
-
-
-
-
-
-
-
-
-
   port: 7001
